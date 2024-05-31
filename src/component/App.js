@@ -26,7 +26,7 @@ export default class App extends Component {
         new Header($header, { title });
 
         const $background = this.$target.querySelector('[data-component="background"]');
-        new Background($background, { title });
+        new Background($background);
 
     }
 }
